@@ -81,6 +81,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
+		var hasSpotted = GetComponentsInChildren<SayHello> (true);
 
         // Enable rendering:
         foreach (var component in rendererComponents)
@@ -93,6 +94,11 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Enable canvas':
         foreach (var component in canvasComponents)
             component.enabled = true;
+
+		// Enable spotted:
+		foreach (var component in hasSpotted)
+			component.spotted = true;
+			
     }
 
 
@@ -101,6 +107,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
+		var hasSpotted = GetComponentsInChildren<SayHello> (true);
 
         // Disable rendering:
         foreach (var component in rendererComponents)
@@ -113,6 +120,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Disable canvas':
         foreach (var component in canvasComponents)
             component.enabled = false;
+
+		// Disable spotted:
+		foreach (var component in hasSpotted)
+			component.spotted = false;
     }
 
     #endregion // PROTECTED_METHODS
