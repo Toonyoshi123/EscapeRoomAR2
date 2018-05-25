@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-D:/Unity_Creations/EscapeRoomAR/AR_APP - testi/Prototype2.apk
+D:/Unity_Creations/EscapeRoomAR/AR_APP - testi/Prototype2_fixed.apk
 SceneListBegin?
 Assets/APP_CONTENT/test_scene.unity
 SceneListEnd?
