@@ -8,6 +8,7 @@ Confidential and Proprietary - Protected under copyright and other laws.
 
 using UnityEngine;
 using Vuforia;
+using UnityEngine.Analytics;
 
 /// <summary>
 /// A custom handler that implements the ITrackableEventHandler interface.
@@ -82,6 +83,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         var colliderComponents = GetComponentsInChildren<Collider>(true);
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
 		var hasSpotted = GetComponentsInChildren<SayHello> (true);
+		var analytics = GetComponentsInChildren<AnalyticsEventTracker> (true);
 
         // Enable rendering:
         foreach (var component in rendererComponents)
@@ -98,6 +100,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 		// Enable spotted:
 		foreach (var component in hasSpotted)
 			component.spotted = true;
+
+		foreach (var component in analytics) {
+			component.TriggerEvent ();
+		}
 			
     }
 
