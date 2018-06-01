@@ -6,8 +6,8 @@ using UnityEngine;
 public class Timer : MonoBehaviour {
 
     Text text;
-    float seconds;
-    float minutes;
+    public float seconds;
+    public float minutes;
     public bool activated;
     bool spotted = false;
     public bool diffused = false;
