@@ -29,10 +29,7 @@ public class Vittu : MonoBehaviour
                     inputString = "0000";
                     LogField.text += inputString + "\n";
                     break;
-                case "1234":
-                    Debug.Log(1234);
-                    break;
-                case "415687":
+                case "4568":
                     inputString = "Remove page 1 and take page 2";
                     LogField.text += inputString + "\n";
                     break;
