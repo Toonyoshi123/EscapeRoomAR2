@@ -11,6 +11,8 @@ public class MorsePuzzle : MonoBehaviour {
     [SerializeField]
     Text LogField;
 
+	public GameObject[] AudioFiles;
+
 	// Use this for initialization
 	void Start () {
         source = this.GetComponent<AudioSource>();
@@ -19,9 +21,11 @@ public class MorsePuzzle : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         spotted = this.GetComponent<SayHello>().spotted;
-        if(spotted == true && source.isPlaying == false)
+		if(spotted == true && source.isPlaying == false)
         {
+			GameObject.Find ("NotificationSlider").GetComponent<Notifications> ().AppUpdate ("An unknown file is being played!",4);
             source.Play();
+			Invoke ("ImportFiles", 20f);
         }
         if (spotted == true && logged == false)
         {
@@ -29,4 +33,13 @@ public class MorsePuzzle : MonoBehaviour {
             logged = true;
         }
     }
+
+	void ImportFiles()
+	{
+		foreach(GameObject audioFile in AudioFiles)
+		{
+			audioFile.SetActive (true);
+			GameObject.Find ("NotificationSlider").GetComponent<Notifications> ().AppUpdate ("4 files have been added!",4);
+		}
+	}
 }
