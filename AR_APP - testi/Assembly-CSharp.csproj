@@ -53,10 +53,10 @@
   <ItemGroup>
      <Compile Include="Assets\APP_CONTENT\Ending.cs" />
      <Compile Include="Assets\APP_CONTENT\MorsePuzzle.cs" />
+     <Compile Include="Assets\APP_CONTENT\Notifications.cs" />
      <Compile Include="Assets\APP_CONTENT\SayHello.cs" />
      <Compile Include="Assets\APP_CONTENT\Timer.cs" />
      <Compile Include="Assets\APP_CONTENT\Transitioning.cs" />
-     <Compile Include="Assets\Notifications.cs" />
      <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
      <Compile Include="Assets\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\Scripts\ChangeColor.cs" />
