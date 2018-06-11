@@ -46,6 +46,10 @@ public class Timer : MonoBehaviour {
                 seconds = 60;
                 minutes--;
             }
+			else if(seconds <= 0 && minutes % 5 == 0)
+			{
+				GameObject.Find ("NotificationBar").GetComponent<Notifications> ().GiveHint (0);
+			}
             else if(minutes == 0)
             {
                 Debug.Log("BOOM!");
