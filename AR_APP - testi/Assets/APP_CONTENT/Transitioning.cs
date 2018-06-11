@@ -15,6 +15,7 @@ public class Transitioning : MonoBehaviour {
 	public GameObject cameraButton;
 	public GameObject audioScreen;
 	public GameObject messagesScreen;
+	public GameObject notesScreen;
 
 	public void StartTransition(string selectedApp)
 	{
@@ -47,7 +48,8 @@ public class Transitioning : MonoBehaviour {
 			audioScreen.SetActive (true);
 			break;
 		case "notes":
-
+			notesScreen.SetActive (true);
+			homeScreen.SetActive (false);
 			break;
 		case "messages":
 			homeScreen.SetActive (false);
@@ -60,6 +62,7 @@ public class Transitioning : MonoBehaviour {
 			cameraButton.SetActive (false);
 			audioScreen.SetActive (false);
 			messagesScreen.SetActive (false);
+			notesScreen.SetActive (false);
 			break;
 		}
 		StartCoroutine (EndTransition(1f));

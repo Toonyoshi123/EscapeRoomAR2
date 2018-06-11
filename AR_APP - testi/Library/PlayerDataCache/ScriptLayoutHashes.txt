@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-D:/Unity_Creations/EscapeRoomAR/AR_APP - testi/Phone_prototype.apk
+D:/Unity_Creations/EscapeRoomAR/AR_APP - testi/Phone_prototype2.apk
 SceneListBegin?
 Assets/APP_CONTENT/test_scene.unity
 SceneListEnd?
@@ -113,7 +113,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DefaultInitializationErrorHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ActiveStateToggler
-c4ba34e59ea9f05cba291ab13f0d5e81 Assembly-CSharp.dll:.Transitioning
+4ab75c3a96d9d3be8e91195fea2f431e Assembly-CSharp.dll:.Transitioning
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 c1465577256149eb2fdaaf3754ab7da9 Assembly-CSharp.dll:.TiltWindow
@@ -188,7 +188,7 @@ a924c90a95cf65003f662aa5e30abb6b Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 01e6f145049f3a676df6dc247eabf176 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-ef5347699600031a9abea9d85a8e3b2a Assembly-CSharp.dll:.MorsePuzzle
+b5a4cee185f3bfaa25bd3df5f2e1df8f Assembly-CSharp.dll:.MorsePuzzle
 43fd604a94ae9a0f7ae0600d735ec2f4 Assembly-CSharp.dll:.Vittu
 847108a4f4300c8402f74cce11a88a67 Assembly-CSharp.dll:.DropMe
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ShowSliderValue
@@ -230,6 +230,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 535f1996e6a5379aa7b6ab94c7ac5173 Assembly-CSharp.dll:.SayHello
 5465eae51985f0cb194548215d2133ec Assembly-CSharp.dll:.ScrollDetailTexture
+1d0fbfdbce6c8cbf7ee148fc83e3e62a Assembly-CSharp.dll:.Notifications
 bc79872c81f3cda9be1ec427f70f92aa Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 0561521e336e270e6e5a9c61387cb838 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 bc79872c81f3cda9be1ec427f70f92aa Vuforia.UnityExtensions.dll:Vuforia.AnchorStageBehaviour
