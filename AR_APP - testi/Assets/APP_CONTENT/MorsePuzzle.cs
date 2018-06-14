@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class MorsePuzzle : MonoBehaviour {
 
-    bool spotted;
+    bool spotted = false;
+	bool notified = false;
     AudioSource source;
     bool logged;
     [SerializeField]
@@ -25,7 +26,9 @@ public class MorsePuzzle : MonoBehaviour {
         {
 			GameObject.Find ("NotificationSlider").GetComponent<Notifications> ().AppUpdate ("An unknown file is being played!",4);
             source.Play();
-			Invoke ("ImportFiles", 20f);
+			if(!notified)
+			{Invoke ("ImportFiles", 20f);}
+
         }
         if (spotted == true && logged == false)
         {
@@ -40,6 +43,7 @@ public class MorsePuzzle : MonoBehaviour {
 		{
 			audioFile.SetActive (true);
 			GameObject.Find ("NotificationSlider").GetComponent<Notifications> ().AppUpdate ("4 files have been added!",4);
+			notified = true;
 		}
 	}
 }

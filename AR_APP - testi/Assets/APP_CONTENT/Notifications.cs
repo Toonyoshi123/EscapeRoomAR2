@@ -22,6 +22,7 @@ public class Notifications : MonoBehaviour {
 		image.sprite = apps [app];
 		//play animation
 		this.GetComponent<Animator>().Play("NotificationGoingDown");
+		this.GetComponent<AudioSource> ().Play ();
 	}
 
 	public void AppUpdate(string update, int app)
@@ -31,5 +32,6 @@ public class Notifications : MonoBehaviour {
 		image.sprite = apps [app];
 		//play animation
 		this.GetComponent<Animator>().Play("NotificationGoingDown");
+		this.GetComponent<AudioSource> ().Play ();
 	}
 }

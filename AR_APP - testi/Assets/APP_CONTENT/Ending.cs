@@ -4,20 +4,19 @@ using UnityEngine;
 
 public class Ending : MonoBehaviour {
     bool spotted;
+	bool notified = false;
     [SerializeField]
     GameObject timer;
-	// Use this for initialization
-	void Start () {
-        
-	}
 	
 	// Update is called once per frame
 	void Update () {
         spotted = GetComponent<SayHello>().spotted;
-        if (spotted == true)
+		if (spotted && !notified)
         {
             //turn off timer
             timer.GetComponent<Timer>().diffused = true;
+			GameObject.Find ("NotificationSlider").GetComponent<Notifications> ().AppUpdate ("To disarm, put phone in hatch!",2);
+			notified = true;
         }
     }
 }

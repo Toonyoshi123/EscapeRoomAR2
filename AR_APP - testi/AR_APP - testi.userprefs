@@ -1,11 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Vittu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\APP_CONTENT\MorsePuzzle.cs">
     <Files>
       <File FileName="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" Line="1" Column="1" />
-      <File FileName="Assets\APP_CONTENT\Transitioning.cs" Line="74" Column="35" />
-      <File FileName="Assets\Scripts\Vittu.cs" Line="17" Column="45" />
-      <File FileName="Assets\APP_CONTENT\Notifications.cs" Line="1" Column="1" />
+      <File FileName="Assets\APP_CONTENT\Transitioning.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Vittu.cs" Line="1" Column="1" />
+      <File FileName="Assets\APP_CONTENT\Notifications.cs" Line="17" Column="17" />
+      <File FileName="Assets\APP_CONTENT\FinishedGlyph.cs" Line="7" Column="2" />
+      <File FileName="Assets\APP_CONTENT\SayHello.cs" Line="1" Column="1" />
+      <File FileName="Assets\APP_CONTENT\Ending.cs" Line="18" Column="95" />
+      <File FileName="Assets\APP_CONTENT\MorsePuzzle.cs" Line="46" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
