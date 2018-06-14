@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="AR-Marker-Water" size="1.000000 1.032197" />
-    <ImageTarget name="AR-marker-Fire" size="1.000000 1.007080" />
-    <ImageTarget name="AR-Marker-Air" size="1.000000 0.993506" />
-    <ImageTarget name="AR-Marker-earth" size="1.000000 1.602210" />
-    <ImageTarget name="AR-Marker-Rotation" size="1.000000 1.602210" />
+    <ImageTarget name="AR-Marker_Gear" size="1.000000 1.023981" />
+    <ImageTarget name="AR-Marker-Lifes_Symphony" size="1.000000 1.007160" />
+    <ImageTarget name="AR-Marker-Clock_Foxes" size="1.000000 1.089239" />
+    <ImageTarget name="AR-marker-WaterV2" size="1.000000 1.011402" />
+    <ImageTarget name="AR-marker-EarthV2" size="1.000000 1.011765" />
+    <ImageTarget name="AR-marker-AirV2" size="1.000000 1.012579" />
+    <ImageTarget name="E3FEA520-06F3-4AF4-B857-645980CF81FF" size="1.000000 1.010403" />
     <ImageTarget name="AR-Marker-Foxes" size="1.000000 0.939781" />
-    <ImageTarget name="AR-Marker-Sound" size="1.000000 0.783582" />
-    <ImageTarget name="AR-Marker1-Bomb" size="1.000000 1.410448" />
-    <ImageTarget name="ACE" size="1.000000 1.225000" />
   </Tracking>
 </QCARConfig>

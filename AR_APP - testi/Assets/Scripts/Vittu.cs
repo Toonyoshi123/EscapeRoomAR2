@@ -14,7 +14,7 @@ public class Vittu : MonoBehaviour
     string inputString;
     int[] number = new int[2];
     int[] koodi = new int[4];
-    int[] answer = new int[] { 4, 5, 7, 8 };
+    int[] answer = new int[] { 4, 5, 6, 8 };
     string operatorSymbol;
     int i=0;
     int f = 0;

@@ -22,8 +22,8 @@ public class Transitioning : MonoBehaviour {
 		upperHalf.SetActive (true);
 		lowerHalf.SetActive (true);
 
-		upperHalf.GetComponent<Animator> ().Play ("UpperHalfClosing");
-		lowerHalf.GetComponent<Animator> ().Play ("LowerHalfClosing");
+		upperHalf.GetComponentInChildren<Animator> ().Play ("UpperHalfClosing");
+		lowerHalf.GetComponentInChildren<Animator> ().Play ("LowerHalfClosing");
 
 
 		StartCoroutine (SwitchApp(selectedApp, 1f));
@@ -71,8 +71,8 @@ public class Transitioning : MonoBehaviour {
 	IEnumerator EndTransition(float delay)
 	{
 		//animation
-		upperHalf.GetComponent<Animator> ().Play ("UpperHalfOpening");
-		lowerHalf.GetComponent<Animator> ().Play ("LowerHalfOpening");
+		upperHalf.GetComponentInChildren<Animator> ().Play ("UpperHalfOpening");
+		lowerHalf.GetComponentInChildren<Animator> ().Play ("LowerHalfOpening");
 
 		yield return new WaitForSeconds (delay);
 
