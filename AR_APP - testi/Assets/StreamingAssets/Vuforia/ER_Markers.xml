@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="AR-Maker_glyph" size="1.000000 1.000000" />
     <ImageTarget name="AR-Marker_Gear" size="1.000000 1.023981" />
     <ImageTarget name="AR-Marker-Lifes_Symphony" size="1.000000 1.007160" />
     <ImageTarget name="AR-Marker-Clock_Foxes" size="1.000000 1.089239" />
