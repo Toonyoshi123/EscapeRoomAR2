@@ -42,11 +42,6 @@ MonoBehaviour:
       DistortionCoefficients: {x: 0, y: 0}
       FieldOfView: {x: 0, y: 0, z: 0, w: 0}
       ContainsMagnet: 0
-  databaseLoad:
-    dataSetsToLoad:
-    - ER_Markers
-    dataSetsToActivate:
-    - ER_Markers
   videoBackground:
     clippingMode: 0
     numDivisions: 2

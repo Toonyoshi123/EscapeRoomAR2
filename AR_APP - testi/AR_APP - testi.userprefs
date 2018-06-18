@@ -1,14 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Vittu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\APP_CONTENT\ChatRoom.cs">
     <Files>
-      <File FileName="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" Line="79" Column="4" />
       <File FileName="Assets\APP_CONTENT\Transitioning.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Vittu.cs" Line="1" Column="1" />
       <File FileName="Assets\APP_CONTENT\Notifications.cs" Line="1" Column="1" />
       <File FileName="Assets\APP_CONTENT\SayHello.cs" Line="1" Column="1" />
       <File FileName="Assets\APP_CONTENT\Ending.cs" Line="1" Column="1" />
       <File FileName="Assets\APP_CONTENT\MorsePuzzle.cs" Line="1" Column="1" />
+      <File FileName="Assets\APP_CONTENT\SoundManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\APP_CONTENT\ChatRoom.cs" Line="14" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
