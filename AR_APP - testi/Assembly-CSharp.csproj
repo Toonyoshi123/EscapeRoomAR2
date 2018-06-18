@@ -52,7 +52,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\APP_CONTENT\ChatRoom.cs" />
+     <Compile Include="Assets\APP_CONTENT\Elementals.cs" />
      <Compile Include="Assets\APP_CONTENT\Ending.cs" />
+     <Compile Include="Assets\APP_CONTENT\GlyphMarker.cs" />
      <Compile Include="Assets\APP_CONTENT\MorsePuzzle.cs" />
      <Compile Include="Assets\APP_CONTENT\Notifications.cs" />
      <Compile Include="Assets\APP_CONTENT\SayHello.cs" />
