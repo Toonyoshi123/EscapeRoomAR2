@@ -111,7 +111,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 421}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 31408
+  controlID: 14823
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 31315
+  controlID: 15010
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -306,8 +306,8 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
@@ -319,7 +319,7 @@ MonoBehaviour:
       y: 17
       width: 680
       height: 318
-    m_Scale: {x: 1, y: 1}
+    m_Scale: {x: 0.2484375, y: 0.2484375}
     m_Translation: {x: 340, y: 159}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -327,12 +327,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -340
-      y: -159
-      width: 680
-      height: 318
+      x: -1368.5535
+      y: -640
+      width: 2737.107
+      height: 1280
     m_MinimalGUI: 1
-  m_defaultScale: 1
+  m_defaultScale: 0.2484375
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 680, y: 335}
@@ -365,14 +365,14 @@ MonoBehaviour:
     height: 354
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 1617.1363783613801
+  lastFramingTime: 4703.75792769744
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 83.10428, y: 562.101, z: 9.346865}
+    m_Target: {x: -131.58797, y: 551.95776, z: -16}
     speed: 2
-    m_Value: {x: 83.10428, y: 562.101, z: 9.346865}
+    m_Value: {x: -131.58797, y: 551.95776, z: -16}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -404,9 +404,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1193.5422
+    m_Target: 1616.4581
     speed: 2
-    m_Value: 1193.5422
+    m_Value: 1616.4581
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -539,7 +539,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 98350
+  m_LastSelectedObjectID: 12838
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -569,7 +569,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: bc0cfaffa00dfaff7e0efaffaa10faffb0f8faff94f9faff72fafaffa2fcfaff8884feffa2dbfffff0fbffff00000000723200003e330000ac330000f63300003434000020350000b0350000b23600003c7f0100
+    m_ExpandedIDs: ec57feffe258feffd259fefffe5bfeff5cd9fffff0fbffff000000007a320000de330000023500009035000098360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -630,20 +630,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Resources
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Resources
+  - Assets/Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Unity_Creations\EscapeRoomAR\AR_APP - testi
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 182e0000
-    m_LastClickedID: 11800
-    m_ExpandedIDs: 00000000322b0000882c00009e2d0000862e0000be2f0000ca2f00001a310000ffffff7f
+    m_SelectedIDs: 1c2c0000
+    m_LastClickedID: 11292
+    m_ExpandedIDs: 00000000342b00008a2c0000a02d0000882e0000c02f0000cc2f00001c310000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -671,7 +671,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000322b0000882c00009e2d0000862e0000be2f0000ca2f00001a310000ffffff7f
+    m_ExpandedIDs: 00000000342b00008a2c0000a02d0000882e0000c02f0000cc2f00001c310000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -699,7 +699,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: 9407000000000000d42c00007c2c00007e82fbff6c2c0000
+    m_ExpandedInstanceIDs: 9407000000000000d42c00007c2c00007e82fbff6c2c00006e2c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

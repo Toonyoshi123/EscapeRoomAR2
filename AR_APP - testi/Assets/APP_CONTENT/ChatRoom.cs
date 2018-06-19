@@ -7,9 +7,12 @@ public class ChatRoom : MonoBehaviour {
 
 	public GameObject chat;
 
-	float currentposition = 0;
+	float currentposition = 0f;
 	Text chatMessage;
 	public Font braile;
+
+	void Start(){currentposition = 0f;
+		this.transform.localPosition = new Vector3 (0f,-4000f,0f);}
 
 	//create a new line of text in the contents gameObject, set this as their parent and give it all a set size and location compared to each other.
 	public void NewLine(string line, float lines, bool isBraile)
@@ -28,11 +31,10 @@ public class ChatRoom : MonoBehaviour {
 
 		//set the size and position
 		newChat.gameObject.GetComponent<RectTransform> ().sizeDelta = new Vector2 (this.GetComponent<RectTransform>().sizeDelta.x,lines * 62f);
-		newChat.gameObject.GetComponent<RectTransform> ().transform.Translate(0f, (this.GetComponent<RectTransform>().sizeDelta.y/2f -(newChat.gameObject.GetComponent<RectTransform> ().sizeDelta.y/2  + 10f + currentposition)),0f);
+		newChat.gameObject.GetComponent<RectTransform> ().transform.localPosition = new Vector3(0f, (4000f -((lines * 32f)  + 10f + currentposition)),0f);
 
-		//newChat.transform.SetParent (this.transform);
 		//update the position for the next message
-		currentposition += ((lines * 62f) + 10f);
+		currentposition = currentposition + ((lines * 62f) + 10f);
 
 	}
 }
