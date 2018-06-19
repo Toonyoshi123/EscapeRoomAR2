@@ -62,6 +62,7 @@
      <Compile Include="Assets\APP_CONTENT\Timer.cs" />
      <Compile Include="Assets\APP_CONTENT\Transitioning.cs" />
      <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
+     <Compile Include="Assets\Scripts\AMark.cs" />
      <Compile Include="Assets\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\Scripts\ChangeColor.cs" />
      <Compile Include="Assets\Scripts\DragMe.cs" />
