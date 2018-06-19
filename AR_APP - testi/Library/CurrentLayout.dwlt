@@ -111,7 +111,11 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 19322
+=======
+  controlID: 14823
+>>>>>>> f42e51948236d5e45d8bbcf9445b09ad6462bf39
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +139,11 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 19323
+=======
+  controlID: 15010
+>>>>>>> f42e51948236d5e45d8bbcf9445b09ad6462bf39
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +325,38 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
       width: 545
       height: 271
     m_Scale: {x: 0.21171875, y: 0.21171875}
     m_Translation: {x: 272.5, y: 135.5}
+=======
+      width: 680
+      height: 318
+    m_Scale: {x: 0.2484375, y: 0.2484375}
+    m_Translation: {x: 340, y: 159}
+>>>>>>> f42e51948236d5e45d8bbcf9445b09ad6462bf39
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -1287.0848
       y: -640
       width: 2574.1697
       height: 1280
     m_MinimalGUI: 1
   m_defaultScale: 0.21171875
+=======
+      x: -1368.5535
+      y: -640
+      width: 2737.107
+      height: 1280
+    m_MinimalGUI: 1
+  m_defaultScale: 0.2484375
+>>>>>>> f42e51948236d5e45d8bbcf9445b09ad6462bf39
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 545, y: 288}
@@ -365,14 +389,24 @@ MonoBehaviour:
     height: 304
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
+<<<<<<< HEAD
   lastFramingTime: 7290.772724909068
+=======
+  lastFramingTime: 4703.75792769744
+>>>>>>> f42e51948236d5e45d8bbcf9445b09ad6462bf39
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 395.09332, y: 564.4801, z: 0}
     speed: 2
     m_Value: {x: 395.09332, y: 564.4801, z: 0}
+=======
+    m_Target: {x: -131.58797, y: 551.95776, z: -16}
+    speed: 2
+    m_Value: {x: -131.58797, y: 551.95776, z: -16}
+>>>>>>> f42e51948236d5e45d8bbcf9445b09ad6462bf39
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -404,9 +438,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 1835.0017
     speed: 2
     m_Value: 1835.0017
+=======
+    m_Target: 1616.4581
+    speed: 2
+    m_Value: 1616.4581
+>>>>>>> f42e51948236d5e45d8bbcf9445b09ad6462bf39
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -539,7 +579,11 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
+<<<<<<< HEAD
   m_LastSelectedObjectID: -619072
+=======
+  m_LastSelectedObjectID: 12838
+>>>>>>> f42e51948236d5e45d8bbcf9445b09ad6462bf39
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -567,9 +611,15 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: b2baffff
     m_LastClickedID: -17742
     m_ExpandedIDs: be8df6fff458f9fff658f9ff3e5bf9ff765df9fff661f9ffe28efaff1285fcff1ae9ffff00000000c6390000
+=======
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: ec57feffe258feffd259fefffe5bfeff5cd9fffff0fbffff000000007a320000de330000023500009035000098360000
+>>>>>>> f42e51948236d5e45d8bbcf9445b09ad6462bf39
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -630,20 +680,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< HEAD
     - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
   - Assets/Scripts
+=======
+    - Assets/Prefabs
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets/Prefabs
+>>>>>>> f42e51948236d5e45d8bbcf9445b09ad6462bf39
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Edukas\Documents\GitHub\EscapeRoomAR2\AR_APP - testi
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: ce340000
     m_LastClickedID: 13518
     m_ExpandedIDs: 000000008a330000ae340000943500005836000076370000823700008a38000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 1c2c0000
+    m_LastClickedID: 11292
+    m_ExpandedIDs: 00000000342b00008a2c0000a02d0000882e0000c02f0000cc2f00001c310000ffffff7f
+>>>>>>> f42e51948236d5e45d8bbcf9445b09ad6462bf39
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -671,7 +735,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000008a330000ae340000943500005836000076370000823700008a38000000ca9a3bffffff7f
+=======
+    m_ExpandedIDs: 00000000342b00008a2c0000a02d0000882e0000c02f0000cc2f00001c310000ffffff7f
+>>>>>>> f42e51948236d5e45d8bbcf9445b09ad6462bf39
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -698,8 +766,13 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 94070000d42c00007c2c00007e82fbff6c2c0000185e000000000000
+=======
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: 9407000000000000d42c00007c2c00007e82fbff6c2c00006e2c0000
+>>>>>>> f42e51948236d5e45d8bbcf9445b09ad6462bf39
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: Timer
