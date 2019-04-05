@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Elementals : MonoBehaviour {
+    //this code gives the answer to the player based on the markers scanned.
 
 	bool spotted = false;
 	bool notified = false;

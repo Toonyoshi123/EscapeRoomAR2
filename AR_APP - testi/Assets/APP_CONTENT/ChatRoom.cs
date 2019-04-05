@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using UnityEngine;
 
 public class ChatRoom : MonoBehaviour {
+    //This script is made from scratch. It is not yet perfect for a real chatroom, but close to it.
 
 	public GameObject chat;
 

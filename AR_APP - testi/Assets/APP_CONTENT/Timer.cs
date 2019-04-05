@@ -39,7 +39,7 @@ public class Timer : MonoBehaviour {
 				GameObject.Find ("NotificationSlider").GetComponent<Notifications> ().AppUpdate ("You got a message from arctic-fox!",2);
 				notified = true;
 				arctic.GetComponent<ChatRoom> ().NewLine ("The countdown has been started. While I can’t tell you how to solve it (in the case this phone finds its way into the wrong hands) I can help you. There are more markers on the boxes that give hints towards solving the riddles ahead. The first key I can give you is this:\n. = 1\n- = 2\nI’m counting on you. Good luck.\n",17f, false);
-				//system.GetComponent<ChatRoom> ().NewLine ("Triangle", 1f, true);
+				system.GetComponent<ChatRoom> ().NewLine ("Triangle", 1f, true);
 			}
 			activated = true;
         }

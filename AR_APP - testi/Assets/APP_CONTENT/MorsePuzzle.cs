@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class MorsePuzzle : MonoBehaviour {
+    //this code makes other parts of the game accessible after scanning an AR marker
 
     bool spotted = false;
 	bool notified = false;

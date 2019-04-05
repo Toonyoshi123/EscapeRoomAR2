@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using UnityEngine;
 
 public class SoundManager : MonoBehaviour {
+    //This is the script that plays the sounds for the sound puzzle.
 
 	[SerializeField]
 	AudioSource thisSource;

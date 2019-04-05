@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Ending : MonoBehaviour {
+    //this code ends the game's timer and possible death in the story.
+
     bool spotted;
 	bool notified = false;
     [SerializeField]

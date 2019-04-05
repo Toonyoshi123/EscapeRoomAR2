@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using UnityEngine;
 
 public class Notifications : MonoBehaviour {
+    //this code makes the notification bar come down with new information.
 
 	string[] hints = {"The camera can be used to scan markers.", "The code can be put into the calculator.", "The recordings are in the right order.", "Each log has one correctly positioned disc.", "What did phoenix tell you about the glyph?", "North4, South3, West2, East1.", "You need to translate.", "Arctic gave you a nice hint.", "The colors match the apps."};
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GlyphMarker : MonoBehaviour {
+    //This code activates the glyph-text puzzle. Adding the translator to the notes section.
 
 	bool spotted = false;
 	bool notified = false;

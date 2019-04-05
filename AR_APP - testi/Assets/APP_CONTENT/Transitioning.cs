@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Transitioning : MonoBehaviour {
+    //this code starts and ends the transition animations
 
 	[SerializeField]
 	GameObject upperHalf;
@@ -22,9 +23,9 @@ public class Transitioning : MonoBehaviour {
 		upperHalf.SetActive (true);
 		lowerHalf.SetActive (true);
 
+        //animation
 		upperHalf.GetComponentInChildren<Animator> ().Play ("UpperHalfClosing");
 		lowerHalf.GetComponentInChildren<Animator> ().Play ("LowerHalfClosing");
-
 
 		StartCoroutine (SwitchApp(selectedApp, 1f));
 	}
